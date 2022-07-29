@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;500&family=Shadows+Into+Light&family=Signika:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:wght@100;300;500&family=Shadows+Into+Light&family=Signika:wght@500;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+.nav-items {
+  margin-left: 400px;
+  margin-top: -85px;
+  position: relative;
+  /* height: 20px; */
+}
+.nav-item {
+  text-align: center;
+  position: relative;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 20px;
+}
+.logo {
+  margin-top: 20px;
+  margin-left: 40px;
+  height: 40px;
+}
+.active-item {
+  color: #ff6666;
+}
+.icons {
+  float: right;
+  margin-top: -75px;
+}
+
+.intro-section {
+  margin-left: 40px;
+}
+div h3 {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: #4f4e4e;
+}
+img[src="./images/circles.svg"] {
+  height: 30px;
+}
+
+.left-section h1 {
+  margin-top: -18px;
+  font-size: 50px;
+  font-family: "Signika";
+}
+.sub-headline {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #1e1e1ef0;
+}
+.sub-headline-content {
+  margin-left: 38px;
+  margin-top: -25px;
+  font-size: 17px;
+  font-weight: lighter;
+  padding: -10px;
+}
+.text {
+  color: #bbb7b7;
+  width: 630px;
+}
+.action-btns {
+  padding: 10px;
+}
+.action-btn {
+  padding: 10px;
+  width: 150px;
+  border-radius: 2rem;
+  background-color: #ff6666;
+  border: 1px solid #ff6666;
+  color: white;
+}
+
+.action-btns > .action-btn {
+  margin-right: 30px;
+}
+img[src="./images/headphones.jpg"] {
+  height: 380px;
+  width: 380px;
+}
+.headphone {
+  float: right;
+  margin-top: -350px;
+  margin-right: 30px;
+}
+
+.right-section .action-btn {
+  margin-left: 930px;
+  margin-top: 15px;
+}
+.discount {
+  height: 140px;
+  margin-left: 750px;
+  margin-top: -700px;
+  position: relative;
+}
+
+.discount-content {
+  margin-top: -180px;
+  margin-left: 640px;
+  position: relative;
+}
+
+.discount-content > h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 145px;
+  margin-top: -10px;
+}
+.discount-content > h4 {
+  margin-left: 143px;
+  margin-top: 65px;
+  color: white;
+  font-size: 20px;
+}
+
+.headphone-div {
+  margin-left: 20px;
+  margin-top: -110px;
+}
+
+.dots {
+  float: right;
+  margin-top: 10px;
+  margin-right: -220px;
+}
+.dot {
+  display: inline;
+}
