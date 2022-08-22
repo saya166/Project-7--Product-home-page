@@ -4,7 +4,7 @@
 
 ![Product Home Page](./Product%20Home%20Page.png)
 
-**[Click here](https://product-home-page-saya.netlify.app/) for the live demo of the webspage on [Netlify](https://www.netlify.com/).**
+**[Click here](https://product-home-page-saya.netlify.app/) for the live demo of the webpage on [Netlify](https://www.netlify.com/).**
 
 ## Key Features
 

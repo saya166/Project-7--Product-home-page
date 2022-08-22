@@ -11,10 +11,18 @@
       href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
     <title>Product Home Page</title>
   </head>
   <body>
     <nav>
+      <div class="bars">
+        <i class="fa fa-bars"></i>
+      </div>
+
       <img src="./images/logo.svg" alt="logo" class="logo" />
       <div class="nav-items">
         <h5 class="nav-item active-item">Home</h5>
@@ -28,20 +36,35 @@
       <div class="left-section">
         <h3>
           New Product
-          <img src="./images/circles.svg" alt="circles" />
+          <img src="./images/circles.svg" alt="circles" class="circles" />
         </h3>
         <h1>Wireless Headphone</h1>
         <div class="sub-headlines">
           <h5 class="sub-headline">
-            <img src="./images/circles.png" alt="plus" height="25px" />
+            <img
+              src="./images/circles.png"
+              alt="plus"
+              height="25px"
+              class="plus-sign"
+            />
             <div class="sub-headline-content">Clear Sound</div>
           </h5>
           <h5 class="sub-headline">
-            <img src="./images/circles.png" alt="plus" height="25px" />
+            <img
+              src="./images/circles.png"
+              alt="plus"
+              height="25px"
+              class="plus-sign"
+            />
             <div class="sub-headline-content">FM Function</div>
           </h5>
           <h5 class="sub-headline">
-            <img src="./images/circles.png" alt="plus" height="25px" />
+            <img
+              src="./images/circles.png"
+              alt="plus"
+              height="25px"
+              class="plus-sign"
+            />
             <div class="sub-headline-content">Up To 11 Hours Playtime</div>
           </h5>
         </div>
@@ -58,16 +81,26 @@
       </div>
       <div class="right-section">
         <div class="headphone-div">
-          <div id="dicount-img1">
-            <img src="./images/discount.svg" alt="discount" class="discount" />
-          </div>
+          <div class="star-pattern">
+            <div id="dicount-img1">
+              <img
+                src="./images/discount.svg"
+                alt="discount"
+                class="discount"
+              />
+            </div>
 
-          <div class="discount-content">
-            <h4 id="d1">Discount</h4>
-            <h1 id="d2">50%</h1>
+            <div class="discount-content">
+              <h4 id="d1">Discount</h4>
+              <h1 id="d2">50%</h1>
+            </div>
           </div>
           <div class="headphone">
-            <img src="./images/headphones.jpg" alt="headphone" />
+            <img
+              src="./images/headphones.jpg"
+              class="headphone-img"
+              alt="headphone"
+            />
           </div>
         </div>
         <div class="dots">
@@ -96,7 +129,9 @@
             />
           </div>
         </div>
-        <button class="action-btn">Add to chart</button>
+        <div class="add-to-cart-btn">
+          <button class="action-btn">Add to cart</button>
+        </div>
       </div>
     </div>
   </body>
