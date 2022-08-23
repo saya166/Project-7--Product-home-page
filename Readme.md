@@ -8,13 +8,14 @@
 
 ## Key Features
 
-**Product Home Page** is THE sample webpage that is Designed with HTML5 and CSS-3.
+**Product Home Page** is THE sample Mobile Responsive webpage that is Designed with HTML5 and CSS-3.
 
 - Introduced with how to set one section from navigation bar `active`.
 - `Flexbox` property is used for displaying elements properly.
 - ### Font Used -
   - Roboto
   - Signika
+- Media Queries are used.
 - Icons are used from _canva_.
 - The website is hosted on _Netlify_.
 
