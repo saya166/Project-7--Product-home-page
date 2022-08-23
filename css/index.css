@@ -140,106 +140,98 @@
   margin-top: -20px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
-  .logo {
-    height: 20px;
-    float: left;
-    margin-left: -5px;
-    margin-top: -5px;
-  }
-  .bars {
-    display: block;
-    float: right;
+@media screen and (max-width: 1060px) {
+  .icons {
+    display: none;
   }
   .nav-items {
     display: none;
   }
-
-  .icons {
-    display: none;
+  .logo {
+    height: 20px;
+    float: left;
+    margin-top: -15px;
   }
   .intro-section {
-    /* margin-left: 520px; */
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-  .left-section {
-    margin-top: 10px;
+    margin-top: 40px;
   }
   .left-section h3 {
-    margin-left: -40px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .circles {
-    height: 15px;
+    height: 12px;
   }
   .left-section h1 {
-    margin-left: -40px;
     margin-top: -3px;
     margin-bottom: 5px;
-    font-size: 20px;
-  }
-  .plus-sign {
-    height: 20px;
-    margin-left: -40px;
+    font-size: 30px;
   }
 
-  .sub-headline-content {
-    font-size: 10px;
-  }
-  .text {
-    margin-left: -40px;
-    margin-top: -10px;
-    font-size: 10px;
-  }
-  .action-btns {
-    margin-left: -60px;
-    padding: 5px;
-    gap: 5px;
-  }
-
-  .action-btn {
-    font-size: 10px;
-    padding: 2px;
-    width: 90px;
-  }
-  .right-section {
-    margin-top: 20px;
-    margin-left: -240px;
-  }
   .headphone-img {
-    height: 180px;
-    width: 180px;
+    margin: 30px 70px 0px 0px;
+    height: 300px;
+    width: 300px;
   }
   .discount {
-    height: 65px;
-    margin-left: -75px;
-  }
-  .star-pattern {
-    margin-top: 100px;
-    margin-left: -15px;
-  }
-  .discount-content {
-    margin-top: -65px;
-    position: relative;
+    height: 105px;
+    margin-right: -50px;
   }
   .discount-content > h4 {
-    font-size: 10px;
-    margin-bottom: 20px;
-    margin-left: -95px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-right: 35px;
+    text-align: center;
+    margin-left: -10px;
   }
 
   .discount-content > h1 {
-    font-size: 15px;
-    margin-left: -90px;
+    font-size: 25px;
   }
   .dots {
     display: flex;
     justify-content: center;
-    margin-left: -70px;
+    margin-right: 50px;
   }
   .add-to-cart-btn {
-    margin-left: -70px;
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .bars {
+    display: block;
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .text {
+    display: flex;
+    font-size: 15px;
+    width: 300px;
+  }
+  .action-btns {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .action-btn {
+    font-size: 12px;
+    padding: 7px;
+    width: 120px;
+  }
+
+  .star-pattern {
+    margin-top: 200px;
+    margin-left: -25px;
+  }
+  .dots,
+  .add-to-cart-btn {
+    margin-left: -30px;
   }
 }
